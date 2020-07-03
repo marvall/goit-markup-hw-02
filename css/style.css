@@ -1,7 +1,55 @@
 :root {
+  --logo-font: 'Raleway', sans-serif;
+  --main-font: 'Roboto', sans-serif;
   --main-action-color: #2196f3;
   --main-text-color: #757575;
   --main-title-color: #212121;
   --secendary-text-color: #ffffff;
   --logo-main: #000000;
+  --bg-footer: #2f303a;
+  --secendary-footer-color: rgba(255, 255, 255, 0.6);
+  --svg-color: #afb1b8;
+  --bg-what-we-do-tittle: rgba(47, 48, 58, 0.8);
 }
+body{
+    color: var(--main-text-color);
+    font-family: var(--main-font);
+    font-style: normal;
+    letter-spacing: 0.03em;
+}
+/* ---- Styles for most links ----- */
+.link{
+    text-decoration: none;
+}
+/* --- Styles for most list --- */
+.list{
+    list-style: none;
+}
+/* --- Styles for most tittle --- */
+.title{
+    color: var(--main-title-color)
+}
+
+/* -------------  HEADER  --------*/
+.logo{    
+    color: var(--logo-main);
+    font-family: var(--logo-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2em;
+
+}
+
+.logo > span{
+    color: var(--main-action-color);
+}
+
+
+
+
+
+
+
+
+Raleway 700
+Roboto 400,500,700,900
