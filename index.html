@@ -18,38 +18,42 @@
         <a class="logo link" href="./index.html" lang="en"
           ><span>Web</span> Studio</a
         >
-        <ul class="list">
-          <li><a href="./index.html">Студия</a></li>
-          <li><a href="./portfolio.html">Портфолио</a></li>
-          <li><a href="#contacts">Контакты</a></li>
+        <ul class="list main-menu">
+          <li><a class="link state-active" href="./index.html">Студия</a></li>
+          <li><a class="link" href="./portfolio.html">Портфолио</a></li>
+          <li><a class="link" href="#contacts">Контакты</a></li>
         </ul>
       </nav>
-      <ul class="list">
+      <ul class="list contact-menu">
         <li>
           <address>
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a class="link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
           </address>
         </li>
         <li>
-          <address><a href="tel:+380961111111">+38 096 111 11 11</a></address>
+          <address>
+            <a class="link" href="tel:+380961111111">+38 096 111 11 11</a>
+          </address>
         </li>
       </ul>
     </header>
     <main>
       <!-- Hero секция-->
       <section>
-        <h1>
+        <h1 class="hero title">
           Эффективные решения<br />
           для вашего бизнеса
         </h1>
-        <button>Заказать услугу</button>
+        <button class="hero button">Заказать услугу</button>
       </section>
       <!--
         Секция о нас
       -->
       <section>
         <h2 hidden>Наши принципы</h2>
-        <ul class="list">
+        <ul class="list our-principles">
           <li>
             <img
               src="./images/vector.svg"
@@ -57,8 +61,8 @@
               width="70"
               height="70"
             />
-            <h3>Внимание к деталям</h3>
-            <p>
+            <h3 class="title">Внимание к деталям</h3>
+            <p class="descrioption">
               Идейные соображения, а также начало повседневной работы по
               формированию позиции.
             </p>
@@ -70,8 +74,8 @@
               width="70"
               height="70"
             />
-            <h3>Пунктуальность</h3>
-            <p>
+            <h3 class="title">Пунктуальность</h3>
+            <p class="descrioption">
               Задача организации, в особенности же рамки и место обучения кадров
               влечет за собой.
             </p>
@@ -83,8 +87,8 @@
               width="70"
               height="70"
             />
-            <h3>Планирование</h3>
-            <p>
+            <h3 class="title">Планирование</h3>
+            <p class="descrioption">
               Равным образом консультация с широким активом в значительной
               степени обуславливает.
             </p>
@@ -96,8 +100,8 @@
               width="70"
               height="70"
             />
-            <h3>Современные технологии</h3>
-            <p>
+            <h3 class="title">Современные технологии</h3>
+            <p class="descrioption">
               Значимость этих проблем настолько очевидна, что реализация
               плановых заданий.
             </p>
@@ -105,8 +109,8 @@
         </ul>
       </section>
       <!-- Секция чем мы занимаемся -->
-      <section>
-        <h2>Чем мы занимаемся</h2>
+      <section class="what-we-do">
+        <h2 class="section-title">Чем мы занимаемся</h2>
         <ul class="list">
           <li>
             <img
@@ -115,7 +119,7 @@
               width="370"
               height="294"
             />
-            <p>Десктопные приложения</p>
+            <p class="description">Десктопные приложения</p>
           </li>
           <li>
             <img
@@ -124,7 +128,7 @@
               width="370"
               height="294"
             />
-            <p>Мобильные приложения</p>
+            <p class="description">Мобильные приложения</p>
           </li>
           <li>
             <img
@@ -133,15 +137,15 @@
               width="370"
               height="294"
             />
-            <p>Дизайнерские решения</p>
+            <p class="description">Дизайнерские решения</p>
           </li>
         </ul>
       </section>
       <!--
         Секция наша комманда. иконки  соц.сетей должны быть добавлены СSS
       -->
-      <section>
-        <h2>Наша команда</h2>
+      <section class="our-team">
+        <h2 class="section-title">Наша команда</h2>
         <ul class="list">
           <li>
             <img
@@ -150,9 +154,9 @@
               width="270"
               height="260"
             />
-            <h3>Николай Кучеренко</h3>
-            <p>Product Designer</p>
-            <ul class="list">
+            <h3 class="title">Николай Кучеренко</h3>
+            <p class="description">Product Designer</p>
+            <ul class="list social-page">
               <li>
                 <a href="instagram.com" aria-label="иконка инстограма"></a>
               </li>
@@ -168,9 +172,9 @@
               width="270"
               height="260"
             />
-            <h3>Ольга Иванова</h3>
-            <p>Frontend Developer</p>
-            <ul class="list">
+            <h3 class="title">Ольга Иванова</h3>
+            <p class="description">Frontend Developer</p>
+            <ul class="list social-page">
               <li>
                 <a href="instagram.com" aria-label="иконка инстограма"></a>
               </li>
@@ -186,9 +190,9 @@
               width="270"
               height="260"
             />
-            <h3>Андрей Шевченко</h3>
-            <p>Marketing</p>
-            <ul class="list">
+            <h3 class="title">Андрей Шевченко</h3>
+            <p class="description">Marketing</p>
+            <ul class="list social-page">
               <li>
                 <a href="instagram.com" aria-label="иконка инстограма"></a>
               </li>
@@ -204,9 +208,9 @@
               width="270"
               height="260"
             />
-            <h3>Иван Николаев</h3>
-            <p>UI Designer</p>
-            <ul class="list">
+            <h3 class="title">Иван Николаев</h3>
+            <p class="description">UI Designer</p>
+            <ul class="list social-page">
               <li>
                 <a href="instagram.com" aria-label="иконка инстограма"></a>
               </li>
@@ -218,8 +222,8 @@
         </ul>
       </section>
       <!-- Секция Постоянные клиенты-->
-      <section>
-        <h2>Постоянные клиенты</h2>
+      <section class="company">
+        <h2 class="section-title">Постоянные клиенты</h2>
         <ul class="list">
           <li>
             <a href=""
@@ -279,24 +283,28 @@
       </section>
     </main>
     <!-- подложка сайта.-->
-    <footer id="contacts">
+    <footer id="contacts" class="footer">
       <div>
-        <a href="/"><span>Web</span> Studio</a>
-        <ul class="list">
+        <a class="logo link" href="/"><span>Web</span> Studio</a>
+        <ul class="list contact">
           <li>
             <address>
-              <a href="https://goo.gl/maps/rv63v1wj2Dcafiji9"
+              <a class="link maps" href="https://goo.gl/maps/rv63v1wj2Dcafiji9"
                 >г. Киев, пр-т Леси Украинки, 26</a
               >
             </address>
           </li>
           <li>
             <address>
-              <a href="mailto:info@example.com">info@example.com</a>
+              <a class="link" href="mailto:info@example.com"
+                >info@example.com</a
+              >
             </address>
           </li>
           <li>
-            <address><a href="tel:+380991111111">+38 099 111 11 11</a></address>
+            <address>
+              <a class="link" href="tel:+380991111111">+38 099 111 11 11</a>
+            </address>
           </li>
         </ul>
       </div>
